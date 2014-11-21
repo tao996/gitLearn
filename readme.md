@@ -4,7 +4,7 @@
 
 <img src='./pic/1.start.png' />
 
-<img src='./pic/2.sshkey' />
+<img src='./pic/2.sshkey.png' />
 
 <img src='./pic/3.common.png' />
 
