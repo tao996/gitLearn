@@ -23,15 +23,15 @@
 
 ##### 查看文件修改记录
 
-* 查看简单提交记录 git log --pretty=oneline fileName
-* 查看详细提交记录 git log -p fileName
-* 查看每一行提交	git blame fileName
+* 查看简单提交记录 <br/>git log --pretty=oneline fileName
+* 查看详细提交记录 <br/>git log -p fileName
+* 查看每一行提交	<br/>git blame fileName
 
 ##### git diff
 
-1. 不同分支上的不同文件
-> git diff <branchA>:<fileA> <branchB>:<fileB>
-2. 不同分支上的相同文件
-> git diff <branchA> <branchB> -- <file>
+1. 不同分支上的不同文件<br/>
+git  diff  branchA:fileA  branchB:fileB
+2. 不同分支上的相同文件<br/>
+git  diff  branchA  branchB  --  file
 
 <img src='./pic/9.diff.png' />
