@@ -16,6 +16,8 @@
 
 <img src='./pic/7.remote.png' />
 
+<img src='./pic/8.repository.png' />
+
 
 #### 其它常用功能：
 
@@ -27,5 +29,9 @@
 
 ##### git diff
 
-<img src='./pic/img10.png' />
-[来源](http://www.gitguys.com/topics/git-diff/?lang=zh)
+1. 不同分支上的不同文件
+> git diff <branchA>:<fileA> <branchB>:<fileB>
+2. 不同分支上的相同文件
+> git diff <branchA> <branchB> -- <file>
+
+<img src='./pic/9.diff.png' />
