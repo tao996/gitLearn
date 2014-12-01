@@ -14,6 +14,14 @@
 
 <img src='./pic/6.merge.png' />
 
+##### merge的一个示例
+
+<img src='./pic/6.mregeRemote1.jpg' />
+
+命令：git merge remotes/origin/master
+
+<img src='./pic/6.mregeRemote2.png' />
+
 <img src='./pic/7.remote.png' />
 
 <img src='./pic/8.repository.png' />
