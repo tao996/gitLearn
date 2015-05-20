@@ -1,6 +1,6 @@
-### Git Ñ§Ï°±Ê¼Ç
+### Git å­¦ä¹ ç¬”è®°
 
-#### Git Gui ÉÏÄÇĞ©³£ÓÃµÄÃüÁî£¬ÒòÎªÍ¨³£ÊÇÔÚcommand line ÏÂ²Ù×÷µÄ£¬ÕâÑù¾Í²»ÓÃ¾­³£´ò¿ª½çÃæÀ²
+#### Git Gui ä¸Šé‚£äº›å¸¸ç”¨çš„å‘½ä»¤ï¼Œå› ä¸ºé€šå¸¸æ˜¯åœ¨command line ä¸‹æ“ä½œçš„ï¼Œè¿™æ ·å°±ä¸ç”¨ç»å¸¸æ‰“å¼€ç•Œé¢å•¦
 
 <img src='./pic/1.start.png' />
 
@@ -14,11 +14,11 @@
 
 <img src='./pic/6.merge.png' />
 
-##### mergeµÄÒ»¸öÊ¾Àı
+##### mergeçš„ä¸€ä¸ªç¤ºä¾‹
 
 <img src='./pic/6.mregeRemote1.jpg' />
 
-ÃüÁî£ºgit merge remotes/origin/master
+å‘½ä»¤ï¼šgit merge remotes/origin/master
 
 <img src='./pic/6.mregeRemote2.png' />
 
@@ -27,19 +27,24 @@
 <img src='./pic/8.repository.png' />
 
 
-#### ÆäËü³£ÓÃ¹¦ÄÜ£º
+#### å…¶å®ƒå¸¸ç”¨åŠŸèƒ½ï¼š
 
-##### ²é¿´ÎÄ¼şĞŞ¸Ä¼ÇÂ¼
+##### æŸ¥çœ‹æ–‡ä»¶ä¿®æ”¹è®°å½•
 
-* ²é¿´¼òµ¥Ìá½»¼ÇÂ¼ <br/>git log --pretty=oneline fileName
-* ²é¿´ÏêÏ¸Ìá½»¼ÇÂ¼ <br/>git log -p fileName
-* ²é¿´Ã¿Ò»ĞĞÌá½»	<br/>git blame fileName
+* æŸ¥çœ‹ç®€å•æäº¤è®°å½• <br/>git log --pretty=oneline fileName
+* æŸ¥çœ‹è¯¦ç»†æäº¤è®°å½• <br/>git log -p fileName
+* æŸ¥çœ‹æ¯ä¸€è¡Œæäº¤	<br/>git blame fileName
 
 ##### git diff
 
-1. ²»Í¬·ÖÖ§ÉÏµÄ²»Í¬ÎÄ¼ş<br/>
+1. ä¸åŒåˆ†æ”¯ä¸Šçš„ä¸åŒæ–‡ä»¶<br/>
 git  diff  branchA:fileA  branchB:fileB
-2. ²»Í¬·ÖÖ§ÉÏµÄÏàÍ¬ÎÄ¼ş<br/>
+2. ä¸åŒåˆ†æ”¯ä¸Šçš„ç›¸åŒæ–‡ä»¶<br/>
 git  diff  branchA  branchB  --  file
 
 <img src='./pic/9.diff.png' />
+
+##### å¯¼å‡ºå‡çº§æ–‡ä»¶åŒ…
+* git archive -o app.zip HEAD æ‰“åŒ…æ•´ä¸ªé¡¹ç›®
+* git diff --name-only HEAD~2 æ˜¾ç¤ºæœ€è¿‘2æ¬¡æäº¤ä¿®æ”¹çš„æ–‡ä»¶
+* git archive -o update.zip HEAD $(git diff --name-only HEAD~2) å°†æœ€è¿‘2æ¬¡ä¿®æ”¹çš„æ–‡ä»¶æ‰“åŒ…æˆ update.zip
